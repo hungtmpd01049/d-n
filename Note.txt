@@ -1,0 +1,4 @@
+Chương trình minh họa:
+1. Cách tạo csdl trước và sử dụng khi chương trình hoạt động.
+2. Đọc các file được lưu trong thư mục assets.
+ 

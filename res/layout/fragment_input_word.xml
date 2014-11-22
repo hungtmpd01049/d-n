@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.fpoly.edict.InputWordFragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/etWordKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập từ mới" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etWordMeaning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill|center"
+        android:layout_weight="1"
+        android:ems="10"
+        android:height="0dp"
+        android:hint="Nghĩa của từ"
+        android:inputType="textMultiLine|textWebEditText" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_Save"
+        android:text="Lưu" />
+
+</LinearLayout>
